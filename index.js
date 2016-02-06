@@ -31,4 +31,4 @@
 	}
 	
 	exports.validate = validate;
-})(exports || window);
+})(typeof exports !== 'undefined' ? exports : window);
